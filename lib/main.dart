@@ -330,7 +330,7 @@ class _EnrolledCoursesPageState extends State<EnrolledCoursesPage> {
         backgroundColor: Colors.teal[700],
       ),
       body: widget.courses.isEmpty
-          ? Center(child: Text('У вас нет записанных курсов.'))
+          ? Center(child: Text('У вас нет записанных курсов'))
           : ListView.builder(
         itemCount: widget.courses.length,
         itemBuilder: (context, index) {
