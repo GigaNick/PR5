@@ -236,7 +236,7 @@ class _EnrolledCoursesPageState extends State<EnrolledCoursesPage> {
                       SizedBox(height: 10),
                       Text(
                         'Цена: ${enrolledCourses[index]['price']}',
-                        style: TextStyle(fontSize: 18, color: Colors.black87),
+                        style: TextStyle(fontSize: 19, color: Colors.black87),
                       ),
                     ],
                   ),
